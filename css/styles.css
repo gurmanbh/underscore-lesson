@@ -4,3 +4,34 @@
     box-sizing: border-box;
     margin: 0;
 }
+
+.card{
+    font-family: 'Helvetica';
+    border: 1px solid black;
+    width: 250px;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.year{
+    color: #48a2d7;
+    font-size: 30px;
+}
+
+.song-name{
+    font-style: italic;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.movie-container{
+    font-style: italic;
+    font-size: 20px;
+}
+
+.movie-container .movie{
+    color: #008080;
+    font-weight: bold;
+    font-style: normal;
+}

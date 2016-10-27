@@ -6,9 +6,23 @@
     <body>
         <!-- your main html goes here -->
         <div class = "container">
-            
+           <!--  <div class = "card">
+                <h1 class = "year">1953</h1>
+                <p class = "song-name">"Ye Zindagi Usi Ki Hai, Jo Kisi Ka Ho Gaya, Pyar Hi Me Kho Gaya"</p>
+                <p class = "movie-container">from the movie <span class = "movie">Anarkali</span></p>
+            </div> -->
         </div>
         <!-- your libraries go here -->
+        <script type="jst" id = 'template'>
+            <div class = "card">
+                <h1 class = "year">
+                <%=topper_year%>
+                </h1>
+                <p class = "song-name">"<%=song_heading%>"</p>
+                <p class = "movie-container">from the movie <span class = "movie"><%=album%></span></p>
+            </div>
+
+        </script>
         <!-- first let's load jquery -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <!-- and then of course let's load underscore -->
